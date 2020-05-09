@@ -1,0 +1,20 @@
+{
+  "name": "1-1-questions-now",
+  "version": "1.0.0",
+  "description": "A quick app that gives you a question to ask in your one to one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/1-1-questions-now.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/1-1-questions-now/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/1-1-questions-now#readme"
+}

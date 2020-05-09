@@ -78,8 +78,8 @@ module.exports = (req, res) => {
         <p>Ask a different question in every meeting</p>
         <h2>${question}</h2>
         <div class="">
-          <a class="btn" href="">Add more questions</a>
-          <a class="btn" href="">Give feedback</a>
+          <a class="btn" href="https://github.com/stefanjudis/1-1-question-now#contributing">Add more questions</a>
+          <a class="btn" href="https://github.com/stefanjudis/1-1-question-now/issues">Give feedback</a>
         </div>
       </div>
     </body>

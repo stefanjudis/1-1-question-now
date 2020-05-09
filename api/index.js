@@ -42,8 +42,14 @@ module.exports = (req, res) => {
         }
 
         h2 {
-          font-size: 4em;
+          font-size: 2.5em;
           color: #222831;
+        }
+
+        @media (min-width: 35em) {
+          h2 {
+            font-size: 4em;
+          }
         }
 
         .github-corner {

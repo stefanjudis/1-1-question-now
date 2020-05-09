@@ -29,6 +29,8 @@ module.exports = (req, res) => {
           "Droid Sans", "Helvetica Neue", sans-serif;;
           padding: 2em;
           font-size: 100%;
+          background: #eeeeee;
+          color: #393e46;
         }
 
         *, *::before, *::after {
@@ -41,12 +43,24 @@ module.exports = (req, res) => {
 
         h2 {
           font-size: 4em;
+          color: #222831;
         }
 
         .github-corner {
           position: absolute;
           top: 0;
           right: 0;
+        }
+
+        .btn {
+          background: #00adb5;
+          color: #eeeeee;
+          padding: .75em 1em;
+          margin: .5em;
+          display: inline-block;
+          text-decoration: none;
+          box-shadow: 0 .25em .25em #dddddd;
+          border-radius: 2px;
         }
       </style>
     </head>
@@ -57,6 +71,10 @@ module.exports = (req, res) => {
         <h1>1:1 Question Now</h1>
         <p>Ask a different question in every meeting</p>
         <h2>${question}</h2>
+        <div class="">
+          <a class="btn" href="">Add more questions</a>
+          <a class="btn" href="">Give feedback</a>
+        </div>
       </div>
     </body>
     </html>
